@@ -1,0 +1,26 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Youtech BD\Documents\promita.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}15 Jan 2024, 08:15:29
+
+{com}. gen solvings= Income- Exfood- ExMobile
+
+. reg Exfood ExMobile
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}        17
+{txt}{hline 13}{c +}{hline 34}   F(1, 15)        = {res}     8.67
+{txt}       Model {c |} {res} 1214865.96         1  1214865.96   {txt}Prob > F        ={res}    0.0100
+{txt}    Residual {c |} {res} 2102139.92        15  140142.662   {txt}R-squared       ={res}    0.3663
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.3240
+{txt}       Total {c |} {res} 3317005.88        16  207312.868   {txt}Root MSE        =   {res} 374.36
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}      Exfood{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 4}ExMobile {c |}{col 14}{res}{space 2} 1.983545{col 26}{space 2} .6736946{col 37}{space 1}    2.94{col 46}{space 3}0.010{col 54}{space 4}  .547599{col 67}{space 3} 3.419491
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 1185.826{col 26}{space 2} 244.0021{col 37}{space 1}    4.86{col 46}{space 3}0.000{col 54}{space 4} 665.7478{col 67}{space 3} 1705.904
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. exit, clear
